@@ -1,3 +1,15 @@
 * {
   box-sizing: border-box;
 }
+
+.side_bar {
+  background-color: #253141;
+  height: 100vh;
+  width: 300px;
+}
+
+.main_chat {
+  background-color: #ffffff;
+  height: 100vh;
+  width: calc(100vw - 300px);
+}
