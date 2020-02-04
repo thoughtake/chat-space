@@ -1,0 +1,48 @@
+.main-chat
+  .main-chat__group
+    .main-chat__group__info
+      .main-chat__group__info--name
+        test
+      .main-chat__group__info--member
+        Member：masa
+    .main-chat__group__edit
+      Edit
+  .main-chat__talk
+
+    .main-chat__talk__content
+      .main-chat__talk__content__info
+        .main-chat__talk__content__info--name
+          masa
+        .main-chat__talk__content__info--time
+          2020/02/03(Mon) 18:00:00
+      .main-chat__talk__content__message
+        おはよう！
+
+    .main-chat__talk__content
+      .main-chat__talk__content__info
+        .main-chat__talk__content__info--name
+          masa
+        .main-chat__talk__content__info--time
+          2020/02/03(Mon) 18:00:00
+      .main-chat__talk__content__message
+        今日は夜から雨
+
+    .main-chat__talk__content
+      .main-chat__talk__content__info
+        .main-chat__talk__content__info--name
+          masa
+        .main-chat__talk__content__info--time
+          2020/02/03(Mon) 18:00:00
+      .main-chat__talk__content__message
+        はーい
+    
+  .main-chat__form
+    %form{class: 'main-chat__form__input'}
+      .main-chat__form__input__box
+        %input{type: "text", class: "main-chat__form__input__box--text", placeholder: "type a message"}
+        %label{class: "main-chat__form__input__box__image"}
+          = icon('fas', 'image', class: "main-chat__form__input__box__image--icon")
+          %input{type: 'file', class: "main-chat__form__input__box__image--input"}
+      %input{type: 'submit', value: 'Send', class: "main-chat__form__input--submit"}
+
+    
