@@ -37,3 +37,12 @@
         はーい
     
   .main-chat__form
+    %form{class: 'main-chat__form__input'}
+      .main-chat__form__input__box
+        %input{type: "text", class: "main-chat__form__input__box--text", placeholder: "type a message"}
+        %label{class: "main-chat__form__input__box__image"}
+          = icon('fas', 'image', class: "main-chat__form__input__box__image--icon")
+          %input{type: 'file', class: "main-chat__form__input__box__image--input"}
+      %input{type: 'submit', value: 'Send', class: "main-chat__form__input--submit"}
+
+    
