@@ -1,6 +1,6 @@
 class Message < ApplicationRecord
-  belongs_to :users
-  belongs_to :groups
+  belongs_to :user
+  belongs_to :group
 
   validates :content, presence: true, unless: :image?
 
