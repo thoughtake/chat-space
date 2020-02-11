@@ -5,7 +5,7 @@
         = @group.name
       .main-chat__group__info--member
         Member：
-        - @users.each do |user|
+        - @group.users.each do |user|
           = user.name
     = link_to edit_group_path(@group.id) do
       .main-chat__group__edit
