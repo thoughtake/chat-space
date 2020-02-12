@@ -3,7 +3,7 @@ $(function() {
   function buildHTML(message) {
 
     if ( message.image_url ) {
-      image = `<img src="${message.image_url}" class='lower-message__image'>`;
+      image = `<br><img src="${message.image_url}" class='lower-message__image'>`;
     } else {
       image = "";
     }
@@ -14,7 +14,7 @@ $(function() {
                 <div class="main-chat__talk__content__info--time">${message.created_at}</div>
               </div>
               <div class="main-chat__talk__content__message">
-                ${message.content}<br>
+                ${message.content}
                 ${image}
               </div>
             </div>`
