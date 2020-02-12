@@ -37,10 +37,9 @@ $(function() {
     .done(function(message) {
       html = buildHTML(message);
       $('.main-chat__talk').append(html);
+      $('.main-chat__talk').animate({ scrollTop: $('.main-chat__talk')[0].scrollHeight});
       $('form')[0].reset();
-      // $('#message_content').val('');
-      // $('#message_image').val('');
-      // $('.main-chat__form__input--submit').prop('disabled', false);
+      $('.main-chat__form__input--submit').prop('disabled', false);
     })
   })
 });
