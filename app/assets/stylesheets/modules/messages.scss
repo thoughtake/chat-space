@@ -11,9 +11,6 @@ $section-white: #ffffff;
     &__user {
       background-color: #253141;
       height: 100px;
-      // position: fixed;
-      // top: 0;
-      // width: 300px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -49,9 +46,6 @@ $section-white: #ffffff;
       background-color: #2f3e51;
       height: calc(100% - 100px);
       padding: 0 20px 0;
-      // position: fixed;
-      // top: 100px;
-      // width: 300px;
       &__box {
         padding: 20px 0 40px;
         &--name {
@@ -67,15 +61,11 @@ $section-white: #ffffff;
     }
   }
   .main-chat {
-    // height: 100vh;
     width: calc(100vw - 300px);
     &__group {
       background-color: $section-white;
       height: 100px;
       padding: 0 40px 0;
-      // position: fixed;
-      // top: 0;
-      // width: calc(100vw - 300px);
       display: flex;
       justify-content: space-between;
       &__info {
@@ -107,7 +97,6 @@ $section-white: #ffffff;
     &__talk {
       background-color: #fafafa;
       height: calc(100vh - 100px - 90px);
-      // min-height: calc(100% - 100px - 90px);
       padding: 35px 0 0 40px;
       overflow: scroll;
       &__content {
@@ -135,9 +124,6 @@ $section-white: #ffffff;
       background-color: #d2d2d2;
       height: 90px;
       padding: 20px 40px;
-      // position: fixed;
-      // bottom: 0;
-      // width: calc(100vw - 300px);
       &__input {
         display: flex;
         &__box {
