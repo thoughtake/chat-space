@@ -46,6 +46,7 @@ $section-white: #ffffff;
       background-color: #2f3e51;
       height: calc(100% - 100px);
       padding: 0 20px 0;
+      overflow: scroll;
       &__box {
         padding: 20px 0 40px;
         &--name {
