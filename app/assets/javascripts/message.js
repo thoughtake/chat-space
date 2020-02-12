@@ -2,8 +2,8 @@ $(function() {
 
   function buildHTML(message) {
 
-    if ( message.image ) {
-      image = `<img src="/public/images/${message.image}" class='lower-message__image'>`;
+    if ( message.image_url ) {
+      image = `<img src="${message.image_url}" class='lower-message__image'>`;
     } else {
       image = "";
     }
