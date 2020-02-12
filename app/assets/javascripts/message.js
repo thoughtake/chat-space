@@ -41,5 +41,8 @@ $(function() {
       $('form')[0].reset();
       $('.main-chat__form__input--submit').prop('disabled', false);
     })
+    .fail(function() {
+      alert("メッセージの送信に失敗しました");
+    });
   })
 });
