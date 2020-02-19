@@ -47,6 +47,9 @@ $section-white: #ffffff;
       height: calc(100% - 100px);
       padding: 0 20px 0;
       overflow: scroll;
+      a {
+        text-decoration: none;
+      }
       &__box {
         padding: 20px 0 40px;
         &--name {
